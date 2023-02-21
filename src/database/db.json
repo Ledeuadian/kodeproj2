@@ -1,0 +1,393 @@
+{
+    "Movies": [
+        {
+            "id":1,
+            "name": "The Shawshank Redemption",
+            "img": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX674_.jpg",
+            "year": "1994",
+            "synopsis":"The Shawshank Redemption is a powerful drama that follows the story of Andy Dufresne, a successful banker who is sentenced to life in prison for the murder of his wife and her lover. While serving his sentence at Shawshank State Penitentiary, he befriends fellow inmate Ellis Boyd Red Redding, who helps him navigate the harsh realities of prison life. Through years of setbacks and challenges, Andy maintains hope and works towards gaining his freedom, all while forming deep connections with those around him and revealing the corrupt system within the prison walls.",
+            "genre": ["Drama","Crime"],
+            "rating": "9.2"
+        },
+        {
+            "id":2,
+            "name": "The Godfather",
+            "img": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX674_.jpg",
+            "year": "1972",
+            "synopsis":"The Godfather is an epic crime drama that tells the story of the Corleone family, a powerful Italian-American mafia clan based in New York City. At the heart of the story is the patriarch, Vito Corleone, who is revered as a wise and just leader by his family and feared by his enemies. As Vito's youngest son, Michael, becomes drawn into the family business, he must navigate the treacherous world of organized crime and make difficult choices to protect his loved ones and preserve the Corleone legacy. Spanning multiple decades and featuring an iconic cast of characters, The Godfather is a timeless tale of power, loyalty, and the dark consequences of ambition.",
+            "genre": ["Drama","Crime"],
+            "rating": "9.2"
+        },
+        {
+            "id":3,
+            "name": "The Dark Knight",
+            "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX674_.jpg",
+            "year": "2008",
+            "synopsis":"The Dark Knight is a thrilling superhero film that follows the story of Batman, the vigilante hero of Gotham City, as he faces his greatest challenge yet in the form of the Joker, a chaotic and unpredictable villain who seeks to undermine the very foundations of justice. As Batman struggles to stop the Joker's reign of terror, he is forced to confront the darker aspects of his own character and grapple with difficult moral dilemmas. With stunning action sequences, complex characters, and a brooding atmosphere that captures the essence of the Batman mythology, The Dark Knight is a masterpiece of the superhero genre that transcends its comic book origins to offer a compelling and thought-provoking exploration of good and evil.",
+            "genre": ["Action", "Adventure"],
+            "rating": "9.0"
+        },
+        {
+            "id":4,
+            "name": "Pulp Fiction",
+            "img": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX674_.jpg",
+            "year": "1994",
+            "synopsis":"Pulp Fiction is a genre-bending crime film that weaves together several interlocking stories of gangsters, hitmen, and lowlifes in Los Angeles. With its non-linear structure, edgy humor, and iconic soundtrack, the film subverts conventional storytelling and challenges the audience to see the world in a new light. Through a series of witty and often violent encounters, the characters confront their own mortality and question the nature of existence itself. Featuring unforgettable performances from its ensemble cast and directed with stylish flair by Quentin Tarantino, Pulp Fiction is a daring and audacious film that has become a landmark of modern cinema.",
+            "genre": ["Drama","Crime"],
+            "rating": "8.9"
+        },
+    
+        {
+            "id":5,
+            "name": "Forrest Gump",
+            "img": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX674_.jpg",
+            "year": "1994",
+            "synopsis":"Forrest Gump is a heartwarming dramedy that follows the life of a simple man with a low IQ, Forrest Gump, who unwittingly becomes a witness to some of the most significant events in American history. Through his wide-eyed innocence and unshakable optimism, Forrest finds success as a college football star, a war hero in Vietnam, a shrimp boat captain, and a successful businessman, all while pursuing his lifelong love, Jenny. As he navigates the changing world around him, Forrest learns valuable lessons about friendship, love, and the power of perseverance. With an iconic performance by Tom Hanks in the title role and a charmingly whimsical script, Forrest Gump is a timeless classic that celebrates the triumph of the human spirit.",
+            "genre": ["Drama","Romance"],
+            "rating": "8.8"
+        },
+    
+        {
+            "id":6,
+            "name": "Fight Club",
+            "img": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX674_.jpg",
+            "year": "1999",
+            "synopsis":"Fight Club is a dark and provocative drama that follows the story of an insomniac office worker, who forms a underground fight club with an enigmatic soap maker. As the club grows in popularity and gains a cult-like following, the two men develop a radical philosophy that rejects the consumerist values of modern society and seeks to break free from the constraints of conformity. But as their movement grows more extreme, they become entangled in a web of violence and anarchy that threatens to destroy their lives and everything they stand for. With a bold script, edgy visuals, and a powerhouse performance by Brad Pitt, Fight Club is a searing critique of modern culture and a gripping exploration of the human psyche.",
+            "genre": ["Drama","Thriller"],
+            "rating": "8.8"
+        },
+        {
+            "id":7,
+            "name": "The Matrix",
+            "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX674_.jpg",
+            "year": "1999",
+            "synopsis":"The Matrix is a groundbreaking science fiction film that follows the story of Thomas Anderson, a computer programmer who discovers that the world he knows is actually a computer-generated simulation controlled by malevolent machines. Rescued by a group of human rebels, Anderson, who goes by the hacker alias Neo, learns that he is the prophesied One who can challenge the machines and save humanity from their enslavement. As he trains with the rebels and confronts the agents of the matrix, Neo must question everything he knows and embrace his destiny as a hero. With mind-bending visual effects, philosophical themes, and stylish action sequences, The Matrix is a seminal work of science fiction that has left an indelible mark on popular culture.",
+            "genre": ["Sci-fi", "Action"],
+            "rating": "8.7"
+        },
+        {
+            "id":8,
+            "name": "Goodfellas",
+            "img": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX674_.jpg",
+            "year": "1990",
+            "synopsis":"Goodfellas is a gritty crime drama that chronicles the rise and fall of Henry Hill, a young man who dreams of becoming a gangster and eventually rises through the ranks of the Italian-American mafia in New York City. As he becomes more deeply involved in the criminal underworld, Henry must navigate a complex web of loyalty, violence, and betrayal, all while trying to maintain his relationships with his wife and children. Along with his two closest associates, the ruthless Jimmy Conway and the volatile Tommy DeVito, Henry enjoys a life of power, money, and excess, but ultimately finds that his criminal lifestyle comes at a steep cost. With an unforgettable ensemble cast, stylish direction from Martin Scorsese, and a true-to-life depiction of organized crime, Goodfellas is a modern classic of the gangster genre.",
+            "genre": ["Drama","Crime"],
+            "rating": "8.7"
+        },
+        {
+            "id":9,
+            "name": "Interstellar",
+            "img": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX674_.jpg",
+            "year": "2014",
+            "synopsis":"Interstellar is a mind-bending science fiction epic that takes place in a future where humanity is struggling to survive on an Earth that is rapidly becoming uninhabitable. When a group of explorers led by former pilot Cooper is sent on a perilous mission through a mysterious wormhole to search for a new home for humanity, they are confronted with mind-bending paradoxes of time and space that challenge their understanding of the universe. As Cooper grapples with the emotional toll of leaving his family behind and the dangers of their mission, he must also confront the question of what it means to be human in the face of the vast and unknowable cosmos. With stunning visuals, a thought-provoking script, and powerful performances by Matthew McConaughey and Anne Hathaway, Interstellar is a breathtaking exploration of science, philosophy, and the human condition.",
+            "genre": ["Sci-fi", "Adventure"],
+            "rating": "8.6"
+        },
+        {
+            "id":10,
+            "name": "Whiplash",
+            "img": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX674_.jpg",
+            "year": "2014",
+            "synopsis":"Whiplash is a gripping drama that tells the story of Andrew Neiman, an ambitious young drummer who enrolls at a prestigious music conservatory in New York City. Under the tutelage of the school's ruthless and abusive jazz instructor, Terence Fletcher, Andrew is pushed to his limits as he strives for perfection and the recognition he craves. As he becomes more deeply immersed in the cutthroat world of jazz performance, Andrew finds that his pursuit of greatness comes at a cost, both to his own mental and physical health and to his relationships with those around him. With electrifying performances by Miles Teller and J.K. Simmons and a taut, suspenseful script, Whiplash is a visceral and intense exploration of the nature of art, ambition, and sacrifice.",
+            "genre": ["Drama", "Music"],
+            "rating": "8.5"
+        },
+        {
+            "id":11,
+            "name": "Parasite",
+            "img": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX674_.jpg",
+            "year": "2019",
+            "synopsis":"Parasite is a masterful South Korean film that explores the dynamics of class, power, and family through the story of the Kim family, who live in a cramped basement apartment and struggle to make ends meet. When their son Ki-woo is hired to tutor the daughter of the wealthy Park family, the Kims see an opportunity to improve their fortunes and gradually insinuate themselves into the lives of their employers, with unexpected and devastating consequences. As the two families become increasingly intertwined, the Kims' quest for upward mobility takes on a sinister edge, and the film builds to a shocking and unforgettable conclusion. With a sharp script, richly drawn characters, and skillful direction by Bong Joon-ho, Parasite is a powerful and thought-provoking exploration of the human cost of inequality.",
+            "genre": ["Thriller", "Drama"],
+            "rating": "8.5"
+        },
+        {
+            "id":12,
+            "name": "Spider-Man: Into the Spider-Verse",
+            "img": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_FMjpg_UX674_.jpg",
+            "year": "2018",
+            "synopsis":"Spider-Man is a superhero film that tells the origin story of Peter Parker, an awkward teenager who gains extraordinary powers after being bitten by a genetically altered spider. As he struggles to come to terms with his new abilities, Peter must also navigate the challenges of high school and contend with a dangerous criminal underworld led by the villainous Green Goblin. With the help of his loving Aunt May, his best friend Harry Osborn, and his unrequited crush Mary Jane Watson, Peter gradually assumes the mantle of Spider-Man, using his incredible strength, agility, and web-slinging powers to fight for justice and protect the people of New York City. With thrilling action sequences, a heartfelt romance, and a nuanced portrayal of its hero's inner struggles, Spider-Man is a beloved classic of the superhero genre.",
+            "genre": ["Family", "Action"],
+            "rating": "8.3"
+        },
+        {
+            "id":13,
+            "name": "Coco",
+            "img": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_FMjpg_UX674_.jpg",
+            "year": "2017",
+            "synopsis":"Coco is a heartwarming animated film that celebrates the power of family, music, and Mexican culture. The story follows a young boy named Miguel who dreams of becoming a musician, despite his family's generations-old ban on music. When he accidentally finds himself transported to the Land of the Dead on the Day of the Dead, Miguel sets out to find his great-great-grandfather, a legendary musician whose legacy has been all but forgotten. Along the way, he encounters a lively cast of characters, including his mischievous skeletal companion Hector and the iconic artist Frida Kahlo, as he learns the true importance of remembering and honoring one's ancestors. With vibrant animation, catchy musical numbers, and a moving message of love and remembrance, Coco is a must-see film for audiences of all ages.",
+            "genre": ["Family", "Adventure"],
+            "rating": "8.3"
+        },
+        {
+            "id":14,
+            "name": "Your Name",
+            "img": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_FMjpg_UX674_.jpg",
+            "year": "2016",
+            "synopsis":"Your Name is a stunning anime film that explores the themes of time, memory, and destiny through the story of two teenagers, Mitsuha and Taki, who mysteriously begin to swap bodies with each other. Despite never having met in person, the two develop a profound connection as they navigate each other's lives and try to unravel the strange forces that have brought them together. As they delve deeper into the mystery of their connection, they discover that their fates are inexorably linked to a catastrophic event that threatens to tear them apart forever. With breathtaking visuals, a hauntingly beautiful score, and a deeply emotional story, Your Name is a captivating and unforgettable tale of love and sacrifice that transcends time and space.",
+            "genre": ["Romance", "Fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":15,
+            "name": "Argonavis Movie: Axia",
+            "img": "https://gogocdn.net/cover/rabbits-kingdom-the-movie.png",
+            "year": "2022",
+            "synopsis":"Argonavis Movie: Axia is a high-energy anime film that follows the members of the Argonavis band as they navigate the challenges of fame, friendship, and creativity. When they are invited to participate in a major music festival, the band is thrilled to have the chance to showcase their talent and connect with their fans. However, as they prepare for the big event, tensions begin to emerge between the bandmates, and they must confront their own fears and insecurities if they hope to perform at their best. With electrifying performances, heartwarming character development, and a richly imagined world of music and emotion, Argonavis Movie: Axia is a must-see film for fans of anime and music alike.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":16,
+            "name": "Tensei shitara Slime Datta Ken Movie: Guren no Kizuna",
+            "img": "https://gogocdn.net/cover/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen.png",
+            "year": "2022",
+            "synopsis":"Tensei shitara Slime Datta Ken is a popular anime series that follows the adventures of Satoru Mikami, a 37-year-old man who is killed in a random stabbing incident and reincarnated in a fantasy world as a slime. Although he begins his new life as a weak and powerless creature, Satoru quickly discovers that he has a unique set of skills and abilities that allow him to navigate the dangers of this new world and make new friends along the way. As he gains new powers and allies, Satoru embarks on a quest to build a new life for himself and help those around him, all while coming to terms with the loss of his former identity and the challenges of his new form. With vibrant animation, quirky characters, and a richly imagined world of magic and adventure, Tensei shitara Slime Datta Ken is a beloved anime series that has captured the hearts of fans around the world.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":17,
+            "name": "Suzume no Tojimari",
+            "img": "https://gogocdn.net/cover/suzume-no-tojimari-1664425632.png",
+            "year": "2022",
+            "synopsis":"Tensei shitara Slime Datta Ken is a popular anime series that follows the adventures of Satoru Mikami, a 37-year-old man who is killed in a random stabbing incident and reincarnated in a fantasy world as a slime. Although he begins his new life as a weak and powerless creature, Satoru quickly discovers that he has a unique set of skills and abilities that allow him to navigate the dangers of this new world and make new friends along the way. As he gains new powers and allies, Satoru embarks on a quest to build a new life for himself and help those around him, all while coming to terms with the loss of his former identity and the challenges of his new form. With vibrant animation, quirky characters, and a richly imagined world of magic and adventure, Tensei shitara Slime Datta Ken is a beloved anime series that has captured the hearts of fans around the world.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":18,
+            "name": "Sword Art Online: Progressive Movie - Kuraki",
+            "img": "https://gogocdn.net/cover/sword-art-online-progressive-movie-kuraki-yuuyami-no-scherzo.png",
+            "year": "2022",
+            "synopsis":"Sword Art Online is a popular anime series that takes place in the year 2022, where virtual reality gaming has become the norm. The game's creator, Akihiko Kayaba, creates a new game called Sword Art Online (SAO), which allows players to fully immerse themselves in a massive virtual world with their minds. However, when ten thousand players log into the game on its launch day, they discover that they cannot log out, and Kayaba reveals that he has trapped them all in the game until someone can complete all 100 floors of the game's tower. Protagonist Kirito and his friends, along with a host of other players, must navigate their way through the game's challenges and dangers if they hope to make it out alive. With exciting battles, complex characters, and a thought-provoking examination of the nature of gaming and reality, Sword Art Online is a thrilling and engrossing anime that has captured the imaginations of fans worldwide.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":19,
+            "name": "Bokura no Yoake",
+            "img": "https://gogocdn.net/cover/bokura-no-yoake.png",
+            "year": "2022",
+            "synopsis":"Tensei shitara Slime Datta Ken is a popular anime series that follows the adventures of Satoru Mikami, a 37-year-old man who is killed in a random stabbing incident and reincarnated in a fantasy world as a slime. Although he begins his new life as a weak and powerless creature, Satoru quickly discovers that he has a unique set of skills and abilities that allow him to navigate the dangers of this new world and make new friends along the way. As he gains new powers and allies, Satoru embarks on a quest to build a new life for himself and help those around him, all while coming to terms with the loss of his former identity and the challenges of his new form. With vibrant animation, quirky characters, and a richly imagined world of magic and adventure, Tensei shitara Slime Datta Ken is a beloved anime series that has captured the hearts of fans around the world.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":20,
+            "name": "Kin no Kuni Mizu no Kuni",
+            "img": "https://gogocdn.net/cover/kin-no-kuni-mizu-no-kuni.png",
+            "year": "2022",
+            "synopsis":"Kin no Kuni Mizu no Kuni is a Japanese fantasy light novel series by Nisio Isin. The story is set in a world divided into two nations, the wealthy and technologically advanced Kin no Kuni and the impoverished Mizu no Kuni, which is suffering from water shortages. The story follows two main characters, the pragmatic and capable ruler of Kin no Kuni, Kazuki Yasaka, and the free-spirited and curious daughter of Mizu no Kuni's chief, Kuon, who dreams of exploring the world beyond her borders. As they become embroiled in political intrigue and clashes between their respective nations, they develop a unique relationship that will shape the fate of both kingdoms. With its compelling world-building, dynamic characters, and intricate plot, Kin no Kuni Mizu no Kuni is a must-read for fans of fantasy and political intrigue.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":21,
+            "name": "The First Slam Dunk",
+            "img": "https://gogocdn.net/cover/the-first-slam-dunk-1667529452.png",
+            "year": "2022",
+            "synopsis":"is highly acclaimed basketball manga Slam Dunk. The story revolves around a young prodigy named Satoru Yaguchi, who possesses incredible talent and a passion for basketball. Despite his lack of experience, he aims to lead his middle school team to victory in the national championship. Along the way, he faces numerous challenges, both on and off the court, and must learn to work with his teammates, many of whom have their own unique personalities and struggles. With its engaging characters, intense basketball action, and compelling storyline, The First Slam Dunkoffers fans of the genre an exciting and insightful look into the origins of one of the most beloved sports manga series of all time.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":22,
+            "name": "Tsurune Movie: Hajimari no Issha",
+            "img": "https://gogocdn.net/cover/tsurune-movie-hajimari-no-issha.png",
+            "year": "2022",
+            "synopsis":"Tsurune Movie: Hajimari no Issha is a Japanese animated film directed by Takuya Yamamura and produced by Kyoto Animation. It serves as a continuation of the Tsurune anime series, which focuses on a high school archery club and its members. The story follows the young archer Minato, who has a natural talent for the sport but is struggling with the emotional and psychological pressures that come with competitive archery. As he and his teammates prepare for a major tournament, they must confront their own personal demons and find ways to support each other through the ups and downs of their training. With its gorgeous animation, nuanced character development, and intense competition scenes, Tsurune Movie: Hajimari no Issha offers a compelling and emotional story that will resonate with fans of sports anime and drama alike.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":23,
+            "name": "One Piece Film: Red (CAMRIP)",
+            "img": "https://gogocdn.net/cover/one-piece-film-red.png",
+            "year": "2022",
+            "synopsis":"One Piece is a Japanese manga and anime series created by Eiichiro Oda. The story follows a young boy named Monkey D. Luffy who, after consuming a magical fruit called the Gum-Gum Fruit, gains the ability to stretch his body like rubber. Luffy sets out on a journey to become the King of the Pirates, and along the way, he forms a diverse crew of pirates with unique skills and personalities. Together, they sail the Grand Line, a treacherous sea filled with dangerous creatures and powerful enemies, in search of the legendary treasure known as One Piece. With its colorful cast of characters, epic battles, and intricate world-building, One Piece has become one of the most beloved and successful manga and anime franchises of all time. ",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":24,
+            "name": "Idol Bu Show Movie",
+            "img": "https://gogocdn.net/cover/idol-bu-show-movie.png",
+            "year": "2022",
+            "synopsis":"surune Movie: Hajimari no Issha is a Japanese animated film directed by Takuya Yamamura and produced by Kyoto Animation. It serves as a continuation of the Tsurune anime series, which focuses on a high school archery club and its members. The story follows the young archer Minato, who has a natural talent for the sport but is struggling with the emotional and psychological pressures that come with competitive archery. As he and his teammates prepare for a major tournament, they must confront their own personal demons and find ways to support each other through the ups and downs of their training. With its gorgeous animation, nuanced character development, and intense competition scenes, Tsurune Movie: Hajimari no Issha offers a compelling and emotional story that will resonate with fans of sports anime and drama alike.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":25,
+            "name": "Fate/Grand Order: First Order",
+            "img": "https://gogocdn.net/cover/fategrand-order-first-order.png",
+            "year": "2022",
+            "synopsis":"Fate/Grand Order: First Order is an anime film that follows the story of Ritsuka Fujimaru, a young mage who is recruited by the Chaldea Security Organization to participate in a mission to save humanity. With the help of his new partner, the powerful servant Saber, Ritsuka must travel back in time to prevent the extinction of mankind. Along the way, they team up with other legendary servants, battle dangerous enemies, and uncover a sinister plot that threatens to destroy the fabric of time and space. The fate of the world rests on their shoulders as they fight to protect humanity and restore history to its proper course.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":26,
+            "name": "A Starry Tale (Dub)",
+            "img": "https://gogocdn.net/cover/a-starry-tale-dub.jpg",
+            "year": "2022",
+            "synopsis":"A Starry Tale is an animated short film that tells the heartwarming story of a young girl who dreams of becoming an astronaut. She spends her days gazing up at the stars, imagining what it would be like to explore the cosmos. One day, she meets a friendly alien who takes her on a magical journey through space, showing her the wonders of the universe and helping her realize that anything is possible if she sets her mind to it. The film is a celebration of curiosity, imagination, and the power of friendship to inspire us to reach for the stars.",
+            "genre": ["anime"],
+            "rating": "8.3"
+        },
+        {
+            "id":27,
+            "name": "What The Nanny Saw",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/c1/7c/c17cba61739f77d385f97e775dd29457/c17cba61739f77d385f97e775dd29457.jpg",
+            "year": "2022",
+            "synopsis":"What The Nanny Saw is a novel by Fiona Neill that explores the complex dynamics of a wealthy British family and their live-in nanny. The story follows 20-year-old Ali Sparrow, who takes a job as a nanny for the wealthy Fitzwilliam family in London. As she becomes increasingly involved in their lives, she discovers dark secrets and hidden tensions beneath the surface of their seemingly perfect existence. When a tragic event occurs, Ali is forced to confront the truth about the family she thought she knew and make difficult choices about where her loyalties lie. The novel is a gripping exploration of class, privilege, and the lengths people will go to protect their secrets.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":28,
+            "name": "What the Peeper Saw",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/b3/c8/b3c8afd0339c9b3808a0ae5d33fbe167/b3c8afd0339c9b3808a0ae5d33fbe167.jpg",
+            "year": "1972",
+            "synopsis":"What the Peeper Saw is a psychological thriller film from the 1970s directed by James Kelley and starring Mark Lester and Britt Ekland. The story centers around a 12-year-old boy named Marcus who becomes obsessed with his beautiful stepmother, Lucia, and begins spying on her and her lover. When Marcus witnesses the couple murder Lucia's husband, he uses his knowledge to manipulate and control Lucia, using her guilt to make her his willing accomplice in a series of increasingly twisted and dangerous schemes. As the tension builds and the body count rises, the film explores the dark and twisted psychology of its young protagonist and the dangerous consequences of his obsession.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":29,
+            "name": "The Last Thing Mary Saw",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/1a/ba/1aba27cdd1e1cd2c536be92f5e62ad89/1aba27cdd1e1cd2c536be92f5e62ad89.jpg",
+            "year": "2021",
+            "synopsis":"The Last Thing Mary Saw is a horror film that takes place in rural 19th century New England and follows a young woman named Mary, who is set to inherit her family's farm but is kept confined to her room due to a mysterious illness. As her health deteriorates, Mary begins to experience increasingly strange and terrifying visions, and secrets and lies from her family's past are brought to light. When a family member is found murdered, Mary becomes the prime suspect and must navigate the growing paranoia and religious hysteria of her community to uncover the truth about what is happening to her and her family. The film is a chilling and atmospheric exploration of fear, guilt, and the dangers of blind faith. ",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":30,
+            "name": "Tom Sawyer",
+            "img": "hhttps://img.hdtoday.tv/xxrz/250x400/394/18/7c/187c5aa310a061171cb264c55e6b13b0/187c5aa310a061171cb264c55e6b13b0.jpg",
+            "year": "2011",
+            "synopsis":"Tom Sawyer is a classic novel by Mark Twain that follows the adventures of a young boy named Tom as he navigates life in the fictional town of St. Petersburg, Missouri, in the mid-19th century. Tom is mischievous and rebellious, always getting into trouble with his best friend Huckleberry Finn, but he also has a good heart and a keen sense of justice. Throughout the novel, Tom and Huck embark on a series of adventures, from exploring a haunted house to running away from home to search for treasure. Along the way, Tom learns important lessons about friendship, courage, and responsibility, making the novel a timeless coming-of-age tale that has captivated readers for generations.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":31,
+            "name": "365 Days",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/85/a3/85a39dbf79d49fa50053b952b3109162/85a39dbf79d49fa50053b952b3109162.jpg",
+            "year": "2020",
+            "synopsis":"365 Days is a Polish erotic drama film that tells the story of a young woman named Laura who is kidnapped by a powerful mafia boss named Massimo. He gives her a year to fall in love with him and become his partner in the criminal underworld. Laura initially resists Massimo's advances, but she eventually succumbs to his dangerous charm and begins to develop feelings for him. As their relationship intensifies, Laura becomes increasingly enmeshed in Massimo's world, putting her life and safety at risk. The film is a controversial and explicit exploration of sex, power, and obsession, and has drawn criticism for its portrayal of a kidnapping victim falling in love with her captor.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":32,
+            "name": "Mr. 365",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/04/36/04363c30b512f49c6ca8d154b7f1886d/04363c30b512f49c6ca8d154b7f1886d.jpg",
+            "year": "2018",
+            "synopsis":"Mr. 365 is a made-for-TV romantic comedy film that follows the story of a commitment-phobic firefighter named Jack who has a reputation for never dating the same woman twice. He meets a charming schoolteacher named Kristin and the two begin a whirlwind romance, but Jack still can't shake his fear of settling down. To prove to Kristin that he's capable of being in a committed relationship, Jack makes a New Year's resolution to be with her for 365 days. Over the course of the year, the couple faces a series of challenges that test their love and commitment to each other, but they ultimately discover that their differences make them stronger together. The film is a lighthearted and feel-good romantic comedy that explores the themes of love, trust, and taking risks.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":33,
+            "name": "How to Train Your Dragon",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/ec/35/ec359f4bfd201710f78d41d381c9eeda/ec359f4bfd201710f78d41d381c9eeda.jpg",
+            "year": "2018",
+            "synopsis":"How to Train Your Dragon is an animated film that follows the story of a young Viking named Hiccup who lives on the island of Berk, a place where dragons are a common and constant threat. Despite his small stature and lack of traditional Viking skills, Hiccup dreams of becoming a dragon slayer like his father, the chief of the tribe. When Hiccup captures a rare and dangerous dragon known as a Night Fury, he discovers that they're not the mindless beasts he's been taught to believe in. With the help of his new dragon friend, whom he names Toothless, Hiccup sets out to change the hearts and minds of his fellow Vikings and prove that there's more to these creatures than meets the eye. The film is a charming and heartwarming tale about friendship, acceptance, and the power of individuality.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":34,
+            "name": "How to Train Your Husband",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/ad/6e/ad6e0a5d4639783f73667d79cb3b5750/ad6e0a5d4639783f73667d79cb3b5750.jpg",
+            "year": "2018",
+            "synopsis":"How to Train Your Husband is a made-for-TV romantic comedy film that follows the story of a newlywed couple named Sophie and Brant, who struggle to adapt to married life. When Sophie becomes frustrated with her husband's lack of romantic gestures and helpfulness around the house, she turns to a self-help book called How to Train Your Husband for advice. Armed with new techniques and strategies, Sophie attempts to train Brant to be the perfect husband, but her methods quickly backfire, leading to a series of humorous and often embarrassing mishaps. As they navigate the ups and downs of their relationship, the couple learns valuable lessons about communication, compromise, and the importance of being true to themselves. The film is a lighthearted and relatable exploration of the challenges of married life and the power of love and acceptance.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":35,
+            "name": "How to Live Your Best Death",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/dc/5f/dc5f5a7ec7654c1a1679753f8e08a002/dc5f5a7ec7654c1a1679753f8e08a002.jpg",
+            "year": "2018",
+            "synopsis":"How to Live Your Best Death is a thought-provoking and practical guide to help readers embrace the inevitability of death and live life to the fullest until the end. The author, Dr. Karen Wyatt, draws on her experience as a hospice physician to offer insights and strategies for preparing for the end of life, managing physical and emotional symptoms, and finding meaning and purpose in the dying process. Through personal stories and practical advice, the book encourages readers to have honest conversations with loved ones about their wishes and values, embrace the present moment, and cultivate a sense of inner peace and acceptance. Ultimately, How to Live Your Best Death offers a compassionate and empowering perspective on death that can help readers live more fully and fearlessly in the face of life's final challenge.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":36,
+            "name": "Sex Education",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/ea/f5/eaf548a51dd3dff802422ba339f2bc71/eaf548a51dd3dff802422ba339f2bc71.jpg",
+            "year": "2018",
+            "synopsis":"Sex Education is a British comedy-drama series that follows the story of Otis Milburn, a socially awkward high school student who lives with his sex therapist mother, Jean. After accidentally becoming a sex advice guru for his classmates, Otis teams up with rebellious Maeve to start a secret sex therapy clinic in their school. Over the course of three seasons, the show tackles a wide range of topics related to sexuality and identity, including consent, sexual orientation, gender, and relationships. With a diverse and talented cast, witty writing, and a mix of humor and heart, Sex Educationhas become a beloved and influential series that explores the complexities of teenage life and celebrates the power of self-discovery and self-acceptance.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":37,
+            "name": "Sex: Unzipped",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/f1/2e/f12e2c800746b0bfe1ed83ca20ff2664/f12e2c800746b0bfe1ed83ca20ff2664.jpg",
+            "year": "2018",
+            "synopsis":"Sex: Unzipped is a six-part documentary series that explores the complex and diverse world of human sexuality. Hosted by Alix Fox, a well-known sex educator and journalist, the series takes a deep dive into various topics related to sex, including pleasure, consent, intimacy, kink, and sexual health. Each episode features interviews with experts and individuals from different backgrounds and experiences, providing a range of perspectives and insights into the many facets of sexuality. With a candid and non-judgmental approach, Sex: Unzipped aims to educate and empower viewers to understand and explore their own sexuality and to embrace the diversity of sexual expression and experience.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":38,
+            "name": "Sex Appeal",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/74/07/7407dd6bcd4cb2e1ca7dde2e2f31f89f/7407dd6bcd4cb2e1ca7dde2e2f31f89f.jpg",
+            "year": "2018",
+            "synopsis":"Sex Appeal is a French romantic comedy film that tells the story of two high school students, Gabriel and Éva, who make a pact to improve their social status by pretending to date each other. Gabriel, a shy and awkward boy, hopes that being in a relationship with the popular and attractive Éva will boost his self-confidence and help him get the girl of his dreams. As they navigate the ups and downs of their fake relationship, Gabriel and Éva begin to develop genuine feelings for each other, leading to a series of comedic and heartfelt moments. With charming performances, witty writing, and a relatable coming-of-age storyline, Sex Appeal offers a fresh and entertaining take on the timeless themes of love, friendship, and identity.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":39,
+            "name": "Sex Drive",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/8c/1f/8c1f05ae97ca3f79eac60ea490b3fa68/8c1f05ae97ca3f79eac60ea490b3fa68.jpg",
+            "year": "2018",
+            "synopsis":"is a French romantic comedy film that tells the story of two high school students, Gabriel and Éva, who make a pact to improve their social status by pretending to date each other. Gabriel, a shy and awkward boy, hopes that being in a relationship with the popular and attractive Éva will boost his self-confidence and help him get the girl of his dreams. As they navigate the ups and downs of their fake relationship, Gabriel and Éva begin to develop genuine feelings for each other, leading to a series of comedic and heartfelt moments. With charming performances, witty writing, and a relatable coming-of-age storyline, Sex Appeal offers a fresh and entertaining take on the timeless themes of love, friendship, and identity.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":40,
+            "name": "Sex Tape",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/58/e9/58e9a1cbdb5783213e8060b8c2c1b557/58e9a1cbdb5783213e8060b8c2c1b557.jpg",
+            "year": "2014",
+            "synopsis":"Sex Tape is a 2014 comedy film directed by Jake Kasdan. The movie follows the story of a married couple, Jay and Annie, who are trying to reignite their sex life. In an attempt to spice things up, they decide to film themselves having sex on their iPad. However, they accidentally upload the video to the cloud, and it becomes accessible to all of their friends, family, and colleagues. In a panic, Jay and Annie set out on a race against time to delete all traces of the video before it ruins their lives. Along the way, they encounter several obstacles, including a series of embarrassing encounters with their acquaintances, a visit to a shady tech guru, and a wild night at a strip club. The movie is a humorous take on the consequences of technology and the perils of oversharing in the digital age.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":41,
+            "name": "Cashmere Mafia",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/d6/be/d6beb6d857850c8ceb655791d17429c5/d6beb6d857850c8ceb655791d17429c5.jpg",
+            "year": "2014",
+            "synopsis":"",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":42,
+            "name": "Women of Mafia 2",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/f6/c9/f6c9d160c5d7d8671ab09b0c7099102e/f6c9d160c5d7d8671ab09b0c7099102e.jpg",
+            "year": "2014",
+            "synopsis":"Cashmere Mafia is a short-lived American television series that premiered in 2008. The show follows the professional and personal lives of four successful and ambitious women who are close friends and work in the high-powered world of Manhattan business. Mia, Juliet, Zoe, and Caitlin must navigate their demanding careers, family obligations, and romantic relationships while dealing with workplace politics, competition, and personal drama. The show explores themes such as gender equality, work-life balance, and the challenges faced by women in leadership positions. Despite critical acclaim, the show was canceled after only one season due to low ratings.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        },
+        {
+            "id":43,
+            "name": "Jane Austen's Mafia!",
+            "img": "https://img.hdtoday.tv/xxrz/250x400/394/64/9d/649def28c151927e2274e328653b3360/649def28c151927e2274e328653b3360.jpg",
+            "year": "2014",
+            "synopsis":"Jane Austen's Mafia! is a 1998 comedy film directed by Jim Abrahams. The movie is a parody of classic Mafia movies and the works of Jane Austen. The story follows the Cortino family, a notorious Mafia clan in New York, as they attempt to keep their power and control over the city. However, when the family's godfather dies, his young and inexperienced son Anthony is forced to take over. Anthony falls in love with a beautiful opera singer, Diane, but his mother is determined to marry him off to a wealthy heiress to solidify their family's power. The movie is filled with slapstick humor, satirical references to classic films, and witty nods to Austen's work. The film received mixed reviews but has since become a cult classic for its absurd and offbeat humor.",
+            "genre": ["fantasy"],
+            "rating": "8.3"
+        }
+        ]
+    }
