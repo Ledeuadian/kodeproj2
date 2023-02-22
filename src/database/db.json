@@ -1,65 +1,6 @@
 {
   "Movies": [
     {
-      "id": 11,
-      "name": "Parasite",
-      "img": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX674_.jpg",
-      "year": "2019",
-      "synopsis": "Parasite is a masterful South Korean film that explores the dynamics of class, power, and family through the story of the Kim family, who live in a cramped basement apartment and struggle to make ends meet. When their son Ki-woo is hired to tutor the daughter of the wealthy Park family, the Kims see an opportunity to improve their fortunes and gradually insinuate themselves into the lives of their employers, with unexpected and devastating consequences. As the two families become increasingly intertwined, the Kims' quest for upward mobility takes on a sinister edge, and the film builds to a shocking and unforgettable conclusion. With a sharp script, richly drawn characters, and skillful direction by Bong Joon-ho, Parasite is a powerful and thought-provoking exploration of the human cost of inequality.",
-      "genre": [
-        "Thriller",
-        "Drama"
-      ],
-      "rating": "8.5"
-    },
-    {
-      "id": 12,
-      "name": "Spider-Man: Into the Spider-Verse",
-      "img": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_FMjpg_UX674_.jpg",
-      "year": "2018",
-      "synopsis": "Spider-Man is a superhero film that tells the origin story of Peter Parker, an awkward teenager who gains extraordinary powers after being bitten by a genetically altered spider. As he struggles to come to terms with his new abilities, Peter must also navigate the challenges of high school and contend with a dangerous criminal underworld led by the villainous Green Goblin. With the help of his loving Aunt May, his best friend Harry Osborn, and his unrequited crush Mary Jane Watson, Peter gradually assumes the mantle of Spider-Man, using his incredible strength, agility, and web-slinging powers to fight for justice and protect the people of New York City. With thrilling action sequences, a heartfelt romance, and a nuanced portrayal of its hero's inner struggles, Spider-Man is a beloved classic of the superhero genre.",
-      "genre": [
-        "Family",
-        "Action"
-      ],
-      "rating": "8.3"
-    },
-    {
-      "id": 13,
-      "name": "Coco",
-      "img": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_FMjpg_UX674_.jpg",
-      "year": "2017",
-      "synopsis": "Coco is a heartwarming animated film that celebrates the power of family, music, and Mexican culture. The story follows a young boy named Miguel who dreams of becoming a musician, despite his family's generations-old ban on music. When he accidentally finds himself transported to the Land of the Dead on the Day of the Dead, Miguel sets out to find his great-great-grandfather, a legendary musician whose legacy has been all but forgotten. Along the way, he encounters a lively cast of characters, including his mischievous skeletal companion Hector and the iconic artist Frida Kahlo, as he learns the true importance of remembering and honoring one's ancestors. With vibrant animation, catchy musical numbers, and a moving message of love and remembrance, Coco is a must-see film for audiences of all ages.",
-      "genre": [
-        "Family",
-        "Adventure"
-      ],
-      "rating": "8.3"
-    },
-    {
-      "id": 14,
-      "name": "Your Name",
-      "img": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_FMjpg_UX674_.jpg",
-      "year": "2016",
-      "synopsis": "Your Name is a stunning anime film that explores the themes of time, memory, and destiny through the story of two teenagers, Mitsuha and Taki, who mysteriously begin to swap bodies with each other. Despite never having met in person, the two develop a profound connection as they navigate each other's lives and try to unravel the strange forces that have brought them together. As they delve deeper into the mystery of their connection, they discover that their fates are inexorably linked to a catastrophic event that threatens to tear them apart forever. With breathtaking visuals, a hauntingly beautiful score, and a deeply emotional story, Your Name is a captivating and unforgettable tale of love and sacrifice that transcends time and space.",
-      "genre": [
-        "Romance",
-        "Fantasy"
-      ],
-      "rating": "8.3"
-    },
-    {
-      "id": 15,
-      "name": "Argonavis Movie: Axia",
-      "img": "https://gogocdn.net/cover/rabbits-kingdom-the-movie.png",
-      "year": "2022",
-      "synopsis": "Argonavis Movie: Axia is a high-energy anime film that follows the members of the Argonavis band as they navigate the challenges of fame, friendship, and creativity. When they are invited to participate in a major music festival, the band is thrilled to have the chance to showcase their talent and connect with their fans. However, as they prepare for the big event, tensions begin to emerge between the bandmates, and they must confront their own fears and insecurities if they hope to perform at their best. With electrifying performances, heartwarming character development, and a richly imagined world of music and emotion, Argonavis Movie: Axia is a must-see film for fans of anime and music alike.",
-      "genre": [
-        "anime"
-      ],
-      "rating": "8.3"
-    },
-    {
       "id": 16,
       "name": "Tensei shitara Slime Datta Ken Movie: Guren no Kizuna",
       "img": "https://gogocdn.net/cover/tensei-shitara-slime-datta-ken-movie-guren-no-kizuna-hen.png",

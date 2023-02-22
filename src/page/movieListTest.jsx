@@ -40,6 +40,7 @@ export default function MovieList() {
             //rerender the Record after deletion
             const response = await getAllMovies()
             setMovie(response.data)
+            
         }
    
    return ( 

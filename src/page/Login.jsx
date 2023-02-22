@@ -34,6 +34,28 @@ const [formData, setFormData] = useState({
       setLogin(false)
       setSignUp(true)
     }
+    function handleSignup(e) {
+      e.preventDefault()
+      fetch('http://localhost:3000/users', {
+          method: 'POST',
+          headers: {'Content-Type' : 'application/json'},
+          body: JSON.stringify(formData)
+      })
+      .then(res => {
+        res.json()
+        alert('Signup Complete')
+        window.location.reload(false)
+      })
+      .then(data => console.log(data))
+    }
+
+    function handleChange(e) {
+      setFormData({...formData, [e.target.name] : e.target.value})
+    }
+      const videoRef = useRef();
+      const handlePlay = () => {
+        videoRef.current.play();
+      };
     return ( 
     
     <div className='container d-flex flex-row text-light text-center'>
@@ -84,7 +106,7 @@ const [formData, setFormData] = useState({
                 </div>
                 <button>Sign up</button>
             </form>
-            <img src={img2} width="100" alt=""/>
+            <img src={img1} width="100" alt=""/>
             </div>
             </div>
       </Modal>
