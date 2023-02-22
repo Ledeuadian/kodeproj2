@@ -76,7 +76,7 @@ export default function MovieList() {
               data-bs-toggle="dropdown"
               data-bs-display="static"
               aria-expanded="false"
-            >
+              >
               Movies
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
