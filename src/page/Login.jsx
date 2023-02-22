@@ -4,6 +4,11 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal'
 import '../style/style.css'
 import img1 from '../imgs/moviehub.png'
+import img2 from '../imgs/clickme.png'
+import vid1 from '../assets/moviehub.mp4'
+import { useRef } from "react";
+
+
 
 import { TabTitle } from '../utilities/Title'
 export default function Login() {
@@ -21,15 +26,27 @@ export default function Login() {
       setLogin(false)
       setSignUp(true)
     }
-
+      const videoRef = useRef();
+    
+      const handlePlay = () => {
+        videoRef.current.play();
+      };
     return ( 
-    <div className='container d-flex flex-row justify-content-center'>
-    <div className = 'd-flex flex-row bg-dark'> 
-      <Button variant="danger" onClick={logInShow} className="me-2">Log-in</Button>
-      </div>
-      <div className = 'd-flex flex-row bg-dark'> 
-      <Button variant="light" onClick={signUpShow} className="ms-2">Sign-up</Button>
-      </div>
+    
+    <div className='container d-flex flex-row text-light text-center'>
+        <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolores quae omnis excepturi qui sint porro consequuntur distinctio deleniti, quo animi, atque hic ducimus aliquam non illo vero quas fugiat.</p>
+          <div className = 'd-flex flex-row bg-dark mt-auto justify-content-center align-content-middle'> 
+          <Button variant="danger" onClick={logInShow} className="me-2">Log-in</Button>
+          <Button variant="light" onClick={signUpShow} className="ms-2">Sign-up</Button>
+          </div>
+        </div>
+        <video src={vid1} type="video/mp4" className="rounded img-fluid video" ref={videoRef}/>
+        <img src={img2} onClick={handlePlay} className="clickMe"/>
+        
+
+      
+      
     <>
     {/*--------------------Log-in MODAL -------------------------------------------- */}
             <Modal show={logIn} onHide={logInClose}>
@@ -66,7 +83,7 @@ export default function Login() {
                 </div>
                 <button>Sign up</button>
             </form>
-            <img src={img1} width="100" alt=""/>
+            <img src={img2} width="100" alt=""/>
             </div>
             </div>
       </Modal>

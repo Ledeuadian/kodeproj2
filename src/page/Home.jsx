@@ -1,7 +1,6 @@
 import React from 'react'
 import { TabTitle } from '../utilities/Title'
 import { useState, useEffect } from 'react';
-import {useParams} from 'react-router-dom';
 import { getAllMovies } from '../service/api';
 import OwlCarousel from 'react-owl-carousel'
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
@@ -133,9 +132,14 @@ export default function Home() {
       </OwlCarousel>
     {/* End of carousel */}
   </div>
-    <div className="bg-dark container d-flex flex-row">
+  <div className="bg-dark container d-flex flex-column text-center text-light mt-5">
+    <h5>Unlimited movies, TV shows, and more.</h5>
+    <h6>Watch anywhere. Cancel anytime</h6>
+    <p>ready to avail our promos? enter your email to create or restart your membership</p>
+    <div className="bg-dark container d-flex flex-row text-center">
     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Email Address'/>
-    <Button className="me-2" variant="danger">Watch</Button>{' '}
+    <Button className="me-2" variant="danger">Get Started</Button>{' '}
+    </div>
     </div>
 
   </div>
