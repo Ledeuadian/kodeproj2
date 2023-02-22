@@ -31,6 +31,9 @@ const [formData, setFormData] = useState({
       setSignUp(true)
     }
 
+    const pseudoLoggedin =()=>{
+    alert('Thank you for logging in, you will be redirected')
+    }
     function handleSignup(e) {
       e.preventDefault()
       fetch('http://localhost:3000/users', {
@@ -83,7 +86,7 @@ const [formData, setFormData] = useState({
                       <input type="email" name="email" placeholder="Email"/>
                       <input type="password" name="password" placeholder="Password"/>
                   </div>
-                  <button>Log-in</button>
+                  <button onClick={()=>pseudoLoggedin()}>Log-in</button>                  
               </form>
               <p>New to MovieHub ? <a href='##########' onClick={signUpFromLogin}>Sign up now</a></p>
               <img src={img1} width="100" alt=""/>

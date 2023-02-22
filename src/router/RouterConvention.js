@@ -22,7 +22,7 @@ export default function RouterConvention(){
         <Routes>
             <Route index element={<Login/>}/>
             <Route path ='/home' element={<Home/>}/>
-            <Route path ='/view' element={<View/>}/>
+            <Route path ='/view/' element={<View/>}/>
             <Route path ='/movies' element={<Movies/>}/>
             <Route path ='/movielist' element={<MovieList/>}/>
             <Route path ='/serieslist' element={<SeriesList/>}/>
@@ -31,7 +31,6 @@ export default function RouterConvention(){
             <Route path ='/EditSeries/:id' element={<EditSeries/>}/>
             <Route path ='/AddMovie' element={<AddMovie/>}/>
             <Route path ='/viewUsers' element={<ViewUsers/>}/>
-            .
             <Route path ='*' element={<NotFound/>}/>
         </Routes>    
     )

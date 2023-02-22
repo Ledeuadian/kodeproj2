@@ -1,10 +1,10 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import { TabTitle } from "../utilities/Title";
 import { getAllMovies } from "../service/api";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Movies() {
   TabTitle("Movies List");
@@ -24,10 +24,10 @@ export default function Movies() {
       <div className="item">
         {/* <Row> */}
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={movie.img} style={{ "border-radius": '20px', height: '350px' }}/>
+          <Card.Img variant="top" src={movie.img} style={{ "border-radius": '20px', height: '340px' }}/>
           <Card.Body>
             <Card.Title>{movie.name}</Card.Title>
-            <Button variant="primary">Watch</Button>
+            <Link className="me-2" variant="light" to={`/view/${movie.id}`}>View</Link>
           </Card.Body>
         </Card>
         {/* </Row> */}
@@ -43,7 +43,7 @@ export default function Movies() {
           <Card.Img variant="top" src={movie.img} style={{ "border-radius": '20px', height: '350px' }}/>
           <Card.Body>
             <Card.Title>{movie.name}</Card.Title>
-            <Button variant="primary">Watch</Button>
+            <Link className="me-2" variant="light" to={`/view/${movie.id}`}>View</Link>
           </Card.Body>
         </Card>
         {/* </Row> */}
