@@ -1,19 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import { TabTitle } from '../utilities/Title'
-import { useState, useEffect } from 'react';
-import { getAllMovies, searchMovie, deleteMovie } from '../service/api';
+import { useState, useEffect } from 'react'
+import { getAllTvSeries, searchTvSeries, deleteTvSeries } from '../service/api';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
-import Button from 'react-bootstrap/Button';
-import Table from 'react-bootstrap/Table';
-import { MDBCol, MDBIcon } from "mdbreact";
+import Button from 'react-bootstrap/Button'
+import Table from 'react-bootstrap/Table'
+import { MDBCol, MDBIcon } from "mdbreact"
 import Modal from 'react-bootstrap/Modal'
 
 
 export default function MovieList() {
     
-    TabTitle('Movies');
+    TabTitle('Tv-Series');
     const [movie, setMovie] = useState([]);
     const [searchName, setSearchName] = useState('')
     const [tableData, setTableData] = useState({})
@@ -24,12 +24,12 @@ export default function MovieList() {
 
         //All records
         const getMovies = async () =>{
-            const response = await getAllMovies();
+            const response = await getAllTvSeries();
             setMovie(response.data)
         }
         //search name
         const searchMovieName = async () => {
-            const response = await searchMovie(searchName)
+            const response = await searchTvSeries(searchName)
             setMovie(response.data)
         }
         //get search name value
@@ -42,9 +42,9 @@ export default function MovieList() {
             return movieName.name.toLowerCase().includes(searchName.toLowerCase());
         })
         const deleteMovieId = async (id) =>{
-            await deleteMovie(id)
+            await deleteTvSeries(id)
             //rerender the Record after deletion
-            const response = await getAllMovies()
+            const response = await getAllTvSeries()
             setMovie(response.data)
             alert('Data successfully deleted')
         }
@@ -52,19 +52,19 @@ export default function MovieList() {
         const [deletion, setDelete] = useState(false);
         const modalClose = () => setDelete(false);
         const modalOpen = () => setDelete(true);
-        
+   
         const [navLinks, setNavLinks] = useState([]);
 
         useEffect(() => {
           const navs = [
-            { name: "Series", path: "/serieslist" },
+            { name: "Movies", path: "/movielist" }
           ];
           setNavLinks(navs);
         }, []);
 
    return ( 
    <div className="container border rounded text-dark bg-light py-2">
-     <h1>Movies</h1>
+     <h1>Series</h1>
      <div className="container-fluid d-flex justify-content-start mt-3">
      <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-light">
@@ -77,7 +77,7 @@ export default function MovieList() {
               data-bs-display="static"
               aria-expanded="false"
             >
-              Movies
+              Series
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
               {navLinks.map((d, i) => (
@@ -100,7 +100,7 @@ export default function MovieList() {
         <MDBIcon/>
         <div className='container-fluid d-flex flex-row'>
         <input className="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search" onChange={getName} />
-        <Link className="d-flex me-2 ms-auto" variant="light" to={`/AddMovie`}>Create New Movie</Link>
+        <Link className="d-flex me-2 ms-auto" variant="light" to={`/AddMovie`}>Create New Tv-Series</Link>
         </div>
         {/* <input type="submit" className="btn btn-outline-primary" onClick={()=> searchMovieName()}/> */}
       </form>
@@ -126,9 +126,11 @@ export default function MovieList() {
           <td>{data.year}</td>
           <td>{data.genre}</td>
           <td>{data.rating}</td>
-          <td><Link className="me-2" variant="light" to={`/editmovie/${data.id}`}>Edit</Link></td>
-          <td><Button className="me-2" variant="danger" onClick={() => {setTableData(data);modalOpen();
-          }}>X</Button></td>
+          <td><Link className="me-2" variant="light" to={`/editseries/${data.id}`}>Edit</Link></td>
+          <td><Button className="me-2" variant="danger" onClick={() => {
+                  setTableData(data);
+                  modalOpen();
+                }}>X</Button></td>
         </tr>
       </tbody>
    ))}

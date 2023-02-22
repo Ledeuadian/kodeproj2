@@ -1,13 +1,6 @@
 import React from 'react'
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal'
 import '../style/style.css'
 import img1 from '../imgs/moviehub.png'
-import img2 from '../imgs/clickme.png'
-import vid1 from '../assets/moviehub.mp4'
-import { useRef } from "react";
-
 
 
 import { TabTitle } from '../utilities/Title'
