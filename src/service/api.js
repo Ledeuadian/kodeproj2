@@ -11,3 +11,12 @@ export const getAllMovies = async() => {
             console.log(error);
         }
     }
+//search by name
+export const searchMovie = async(name) => {
+    return await axios.get(`${urlMovies}?name=${name}`);  
+}  
+
+//Delete Records by id
+export const deleteMovies = async(id) => {
+    return await axios.delete(`${urlMovies}/${id}`);
+}

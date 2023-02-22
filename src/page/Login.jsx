@@ -4,6 +4,11 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal'
 import '../style/style.css'
 import img1 from '../imgs/moviehub.png'
+import img2 from '../imgs/clickme.png'
+import vid1 from '../assets/moviehub.mp4'
+import { useRef } from "react";
+
+
 
 import { TabTitle } from '../utilities/Title'
 const Login =()=> {
@@ -29,34 +34,22 @@ const [formData, setFormData] = useState({
       setLogin(false)
       setSignUp(true)
     }
-
-    function handleSignup(e) {
-      e.preventDefault()
-      fetch('http://localhost:3000/users', {
-          method: 'POST',
-          headers: {'Content-Type' : 'application/json'},
-          body: JSON.stringify(formData)
-      })
-      .then(res => {
-        res.json()
-        alert('Signup Complete')
-        window.location.reload(false)
-      })
-      .then(data => console.log(data))
-    }
-
-    function handleChange(e) {
-      setFormData({...formData, [e.target.name] : e.target.value})
-    }
-
     return ( 
-    <div className='container d-flex flex-row justify-content-center'>
-    <div className = 'd-flex flex-row bg-dark'> 
-      <Button variant="danger" onClick={logInShow} className="me-2">Log-in</Button>
-      </div>
-      <div className = 'd-flex flex-row bg-dark'> 
-      <Button variant="light" onClick={signUpShow} className="ms-2">Sign-up</Button>
-      </div>
+    
+    <div className='container d-flex flex-row text-light text-center'>
+        <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolores quae omnis excepturi qui sint porro consequuntur distinctio deleniti, quo animi, atque hic ducimus aliquam non illo vero quas fugiat.</p>
+          <div className = 'd-flex flex-row bg-dark mt-auto justify-content-center align-content-middle'> 
+          <Button variant="danger" onClick={logInShow} className="me-2">Log-in</Button>
+          <Button variant="light" onClick={signUpShow} className="ms-2">Sign-up</Button>
+          </div>
+        </div>
+        <video src={vid1} type="video/mp4" className="rounded img-fluid video" ref={videoRef}/>
+        <img src={img2} onClick={handlePlay} className="clickMe"/>
+        
+
+      
+      
     <>
     {/*--------------------Log-in MODAL -------------------------------------------- */}
             <Modal show={logIn} onHide={logInClose}>
@@ -91,7 +84,7 @@ const [formData, setFormData] = useState({
                 </div>
                 <button>Sign up</button>
             </form>
-            <img src={img1} width="100" alt=""/>
+            <img src={img2} width="100" alt=""/>
             </div>
             </div>
       </Modal>
