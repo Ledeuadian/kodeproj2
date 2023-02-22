@@ -9,9 +9,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row'
 
-
-
-
 export default function Home() {
     
     TabTitle('Movies');
@@ -138,8 +135,6 @@ export default function Home() {
     <p>ready to avail our promos? enter your email to create or restart your membership</p>
     <div className="bg-dark container d-flex flex-row text-center">
     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter Email Address'/>
-    <Button className="me-2" variant="danger">Get Started</Button>{' '}
-    </div>
     </div>
 
   </div>

@@ -11,7 +11,15 @@ import { useRef } from "react";
 
 
 import { TabTitle } from '../utilities/Title'
-export default function Login() {
+const Login =()=> {
+
+const [formData, setFormData] = useState({
+    email: '',
+    password: '',
+    username: '',
+    role: 'user'
+})
+
     TabTitle('Login');
     const [logIn, setLogin] = useState(false);
     const [signUp, setSignUp] = useState(false);
@@ -26,11 +34,6 @@ export default function Login() {
       setLogin(false)
       setSignUp(true)
     }
-      const videoRef = useRef();
-    
-      const handlePlay = () => {
-        videoRef.current.play();
-      };
     return ( 
     
     <div className='container d-flex flex-row text-light text-center'>
@@ -53,14 +56,14 @@ export default function Login() {
         <div class="modal-container">
           <div class="modal-bg-img"></div>
         <div class="modal-content">
-            <form action="" className="modal-form">
+            <form className="modal-form">
                 <div>
                     <input type="email" name="email" placeholder="Email"/>
                     <input type="password" name="password" placeholder="Password"/>
                 </div>
                 <button>Log-in</button>
             </form>
-            <p>New to MovieHub ? <a href="#" onClick={signUpFromLogin}>Sign up now</a></p>
+            <p>New to MovieHub ? <a href='##########'onClick={signUpFromLogin}>Sign up now</a></p>
             <img src={img1} width="100" alt=""/>
         </div>
     </div>
@@ -73,13 +76,11 @@ export default function Login() {
             <div class="modal-container">
              <div class="modal-bg-img"></div>
              <div class="modal-content">
-            <form action="" className="modal-form">
+            <form onSubmit={e => handleSignup(e)} className="modal-form">
                 <div>
-                    <input type="text" name="firstName" placeholder="First Name"/>
-                    <input type="text" name="LastName" placeholder="Last Name"/>
-                    <input type="email" name="email" placeholder="Email"/>
-                    <input type="password" name="password" placeholder="Password"/>
-                    <input type="password" name="confirPassword" placeholder="Confirm Password"/>
+                <input type='text' placeholder='Username' value={formData.username} name='username' onChange={e => handleChange(e)} required></input>
+                <input type='email' placeholder='Email' value={formData.email} name='email' onChange={e => handleChange(e)} required></input>
+                <input type='password' placeholder='Password' value={formData.password} name='password' onChange={e => handleChange(e)} required></input>
                 </div>
                 <button>Sign up</button>
             </form>
@@ -91,3 +92,5 @@ export default function Login() {
     </div>
     );
 }
+
+export default Login
