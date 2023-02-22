@@ -32,20 +32,20 @@ useEffect(() => {
 
 return (
 <nav className="container-fluid navbar navbar-dark d-flex bg-dark py-2">
-<div className="container-fluid d-flex flex-nowrap">
-        <img className = "Navbar-brand img-fluid" src={navbrand} alt="navbrand"></img>
+    <div className="container-fluid d-flex flex-nowrap pt-3">
+    <img className = "Navbar-brand img-fluid" src={navbrand} alt="navbrand"></img>
     <div className="d-flex justify-self-end">
-            <Link to={"/home"} className="navbar-brand h1 mx-2 border border-0">
-                <i className='fa fa-home'></i>HOME  
+            <Link to={"/home"} className="navbar-brand h1 mx-2">
+                <i className='fa fa-home me-1'></i>HOME  
             </Link>
-            <Link to={"/movies"} className="navbar-toggler text-decoration-none mx-2 border border-0">
-                <i className='fa fa-user'></i>Movies
+            <Link to={"/movies"} className="navbar-toggler text-decoration-none mx-2 border-0">
+                <i className='fa fa-user me-1'></i>Movies
             </Link>
-            <Link to={"/view"} className="navbar-toggler text-decoration-none mx-2 border border-0">
-                <i className='fa fa-plus'></i>Tv-Series
+            <Link to={"/view"} className="navbar-toggler text-decoration-none mx-2 border-0">
+                <i className='fa fa-plus me-1'></i>Tv-Series
             </Link>
-        <div className="form-check form-switch" >
-            <Switch onChange={toggleTheme} checked={theme === true}/>
+        <div className="form-check form-switch p-0" >
+            <Switch onChange={toggleTheme} checked={theme === true} icons={false}/>
         </div>
     </div>    
    </div>
