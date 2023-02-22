@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const urlMovies = "http://localhost:3000/Movies";
-const urlTvSeries = "http://localhost:3000/Series";
-const urlUsers = "http://localhost:3000/users";
+const urlMovies = "https://live-json-server-m7rm.onrender.com/Movies";
+const urlTvSeries = "https://live-json-server-m7rm.onrender.com/Series";
+const urlUsers = "https://live-json-server-m7rm.onrender.com/users";
 
 //get all Records or by ID
 export const getAllMovies = async(id) => {
@@ -13,6 +13,17 @@ export const getAllMovies = async(id) => {
             console.log(error);
         }
     }
+
+//get all Records or by ID
+export const getAllSeries = async(id) => {
+    try {
+        id = id || "";
+        return await axios.get(`${urlTvSeries}/${id}`);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
 //search by Title
 export const searchMovie = async(name) => {
     return await axios.get(`${urlMovies}?name=${name}`);  
