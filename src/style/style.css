@@ -130,4 +130,11 @@
  cursor: pointer;
 }
 
-
+.buttonMarge{
+  margin-top: auto;
+}
+.CardImage{
+  height:100px;
+  visibility: visible;
+  background-color: blue;
+}
